@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap 5 Exercises - All in One</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    section {
+      padding: 40px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center my-4">Bootstrap 5 Exercises - All in One Page</h1>
+
+  <!-- Exercise 1 -->
+  <section id="exercise-1">
+    <h2>1. Bootstrap Setup</h2>
+    <p class="lead">This section uses Bootstrap via CDN.</p>
+  </section>
+
+  <!-- Exercise 2 -->
+  <section id="exercise-2">
+    <h2>2. Bootstrap Structure & JavaScript</h2>
+    <button class="btn btn-primary" onclick="alert('Bootstrap JS is working!')">Test JS Alert</button>
+  </section>
+
+  <!-- Exercise 3 -->
+  <section id="exercise-3">
+    <h2>3. Responsive Grid Layout</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 bg-light p-3">Column 1</div>
+        <div class="col-12 col-md-6 col-lg-4 bg-secondary text-white p-3">Column 2</div>
+        <div class="col-12 col-md-12 col-lg-4 bg-info text-white p-3">Column 3</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exercise 4 -->
+  <section id="exercise-4">
+    <h2>4. Column Layout</h2>
+    <div class="row">
+      <div class="col-md-3 bg-warning p-3">Sidebar</div>
+      <div class="col-md-9 bg-light p-3">Content Area</div>
+    </div>
+  </section>
+
+  <!-- Exercise 5 -->
+  <section id="exercise-5">
+    <h2>5. Alignment and Reordering</h2>
+    <div class="row justify-content-center align-items-center" style="height: 150px;">
+      <div class="col-md-3 order-md-2 bg-success text-white text-center p-3">First</div>
+      <div class="col-md-3 order-md-1 bg-danger text-white text-center p-3">Second</div>
+    </div>
+  </section>
+
+  <!-- Exercise 6 -->
+  <section id="exercise-6">
+    <h2>6. Flexbox Utilities</h2>
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center bg-light p-3">
+      <div>Item 1</div>
+      <div>Item 2</div>
+      <div>Item 3</div>
+    </div>
+  </section>
+
+  <!-- Exercise 7 -->
+  <section id="exercise-7">
+    <h2>7. Typography</h2>
+    <h1 class="display-1">Display Heading</h1>
+    <p class="lead text-muted fw-bold text-uppercase">This is a lead paragraph with styles</p>
+  </section>
+
+  <!-- Exercise 8 -->
+  <section id="exercise-8">
+    <h2>8. Forms</h2>
+    <form class="w-50">
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        <label for="email">Email address</label>
+      </div>
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="check">
+        <label class="form-check-label" for="check">Subscribe</label>
+      </div>
+      <button class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <!-- Exercise 9 -->
+  <section id="exercise-9">
+    <h2>9. Buttons</h2>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-outline-secondary">Outline</button>
+    <div class="btn-group mt-3" role="group">
+      <button class="btn btn-success">One</button>
+      <button class="btn btn-success">Two</button>
+    </div>
+  </section>
+
+  <!-- Exercise 10 -->
+  <section id="exercise-10">
+    <h2>10. Navbar</h2>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portal</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" />
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Exercise 11 -->
+  <section id="exercise-11">
+    <h2>11. Card</h2>
+    <div class="card" style="width: 18rem;">
+      <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Profile</h5>
+        <p class="card-text">A simple profile card.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exercise 12 -->
+  <section id="exercise-12">
+    <h2>12. Spacing</h2>
+    <div class="p-5 m-3 bg-light">Padded and Margined Box</div>
+  </section>
+
+  <!-- Exercise 13 -->
+  <section id="exercise-13">
+    <h2>13. Colors & Background</h2>
+    <div class="bg-primary text-white p-3">Primary Background</div>
+    <div class="bg-gradient bg-dark text-white p-3 mt-2">Gradient Dark</div>
+  </section>
+
+  <!-- Exercise 14 -->
+  <section id="exercise-14">
+    <h2>14. Display Utilities</h2>
+    <div class="d-none d-md-block bg-info text-white p-2">Visible only on medium and larger</div>
+  </section>
+
+  <!-- Exercise 15 -->
+  <section id="exercise-15">
+    <h2>15. Borders & Shadows</h2>
+    <img src="https://via.placeholder.com/100" class="border border-primary border-3 rounded-circle shadow" />
+  </section>
+
+  <!-- Exercise 16 -->
+  <section id="exercise-16">
+    <h2>16. Positioning</h2>
+    <div class="position-relative" style="height: 100px;">
+      <img src="https://via.placeholder.com/100" />
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        New
+      </span>
+    </div>
+  </section>
+
+  <!-- Exercise 17 -->
+  <section id="exercise-17">
+    <h2>17. Bootstrap Icons</h2>
+    <p><i class="bi bi-facebook"></i> Facebook | <i class="bi bi-twitter"></i> Twitter</p>
+  </section>
+
+  <!-- Exercise 18 -->
+  <section id="exercise-18">
+    <h2>18. Modal & Accordion</h2>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Open Modal</button>
+    <div class="modal fade" id="myModal" tabindex="-1">
+      <div class="modal-dialog"><div class="modal-content">
+        <div class="modal-header"><h5 class="modal-title">Modal</h5></div>
+        <div class="modal-body">This is a Bootstrap modal!</div>
+      </div></div>
+    </div>
+
+    <div class="accordion mt-3" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse1">Accordion</button></h2>
+        <div id="collapse1" class="accordion-collapse collapse show">
+          <div class="accordion-body">Accordion content.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exercise 19 -->
+  <section id="exercise-19">
+    <h2>19. Sass Customization</h2>
+    <p class="text-muted">This would involve custom Sass compilation. Demo not shown here.</p>
+  </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
