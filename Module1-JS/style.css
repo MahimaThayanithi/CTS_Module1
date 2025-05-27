@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Header */
+#mainTitle {
+  color: #007BFF;
+  text-align: center;
+}
+
+/* Form Styles */
+form {
+  margin-bottom: 20px;
+}
+
+input, select {
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Events Card Container */
+#eventsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Event Card */
+.eventCard {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 15px;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+/* Hover Effect */
+.eventCard:hover {
+  transform: scale(1.05);
+}
+
+/* Message */
+#messageArea {
+  color: green;
+  font-weight: bold;
+}
